@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+	<!-- displays site properly based on user's device -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
 	<!-- Importing Red Hat Display Font from Google -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,24 +16,42 @@
 	<title>Nathan Luna | Order Summary Card</title>
 </head>
 <body>
-	<div class="wrapper">
-		<h1 class="wrapper__title">Order Summary</h1>
+	<main>
+		<article class="wrapper">
+			<img class="hero-illustration" src="./images/illustration-hero.svg" alt="Order Illustration">
+			
+			<div class="wrapper__information-section">
+				<h1 class="wrapper__title">Order Summary</h1>
 
-		<p class="wrapper__description">You can now listen to millions of songs, audiobooks, 
-		and podcasts on any device anywhere you like!</p>
+				<p class="wrapper__description">You can now listen to millions of songs, audiobooks, 
+				and podcasts on any device anywhere you like!</p>
 
-		<h2 class="payment__title">Annual Plan</h2>
-		<p class="payment__price">$59.99/year</p>
+				<div class="payment__container">
+					<div class="payment__plan-section">
+						<img class="payment__icon" src="./images/icon-music.svg" alt="Music Note Icon">
 
-		<h2 class="payment__change"><a href="#">Change</a></h2>
+						<div class="payment__plan">
+							<h2 class="payment__title">Annual Plan</h2>
+							<p class="payment__price">$59.99/year</p>
+						</div>
+					</div>
+					
+					<h2 class="payment__change"><a href="#">Change</a></h2>
+				</div>
+				
 
-		<button class="payment__button-proceed">Proceed to Payment</button>
-		<a href="" class="payment__cancel">Cancel Order</a>
-	</div>
+				<button class="payment__button-proceed"><a href="">Proceed to Payment</a></button>
+				<a href="#" class="payment__cancel">Cancel Order</a>
+			</div>
+			
+		</article>
+	</main>
 	
 	<div class="attribution">
-		Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-		Coded by <a href="#">Your Name Here</a>.
+		Challenge by <a href="https://www.frontendmentor.io?ref=challenge" rel="noreferrer"
+		target="_blank">Frontend Mentor</a>. 
+		Coded by <a href="https://www.frontendmentor.io/profile/njmoon21" rel="noreferrer"
+		target="_blank">Nathan J. Luna</a>.
 	</div>
 </body>
 </html>
