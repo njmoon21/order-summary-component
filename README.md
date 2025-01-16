@@ -21,6 +21,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/order-summary-component-with-htmlcss--ST7j-nMHK)
-- Live Site URL: [Add live site URL here](https://njmoon21.github.io/order-summary-component/)
+- Solution URL: [My Solution](https://www.frontendmentor.io/solutions/order-summary-component-with-htmlcss--ST7j-nMHK)
+- Live Site URL: [My Live Site](https://njmoon21.github.io/order-summary-component/)
 
